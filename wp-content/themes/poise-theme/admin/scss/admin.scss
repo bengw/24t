@@ -1,0 +1,15 @@
+/*! WP Admin Styles
+--------------------------*/
+
+// Import partials
+//
+// Generates admin stylesheet
+// ---------------------------
+
+@import 'fonts';
+@import 'variables';
+@import 'acf';
+@import 'wp-admin-bar';
+@import 'wp-admin';
+@import 'wp-menu';
+@import 'yoast';

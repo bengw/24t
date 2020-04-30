@@ -1,0 +1,179 @@
+/* Row styles
+---------------------------------------------- */
+
+// Keep Posts at 1200px regardless of other site width.
+.body--single-post,
+.single-post {
+	.row {
+		max-width: $large;
+	}
+}
+.row {
+	&--full {
+		max-width: $full-width-row;
+	}
+	&--full-bg {
+		// To set up equal height cols.
+		display: table;
+		.col {
+		// Equal height cols.
+			display: table-cell;
+		}
+	}
+}
+// Rows.
+.section {
+	margin: 0 auto;
+	padding: rem-calc(20) rem-calc(15) rem-calc(20);
+	max-width: $site-width;
+	@media (min-width: 90.625rem) {
+		max-width: $xlarge;
+	}
+	@media (min-width: $medium) {
+		padding: rem-calc(30) rem-calc(15) rem-calc(30);
+	}
+	&:first-of-type {
+		padding: rem-calc(40) rem-calc(10) rem-calc(20);
+		@media (min-width: $medium) {
+			padding: rem-calc(60) rem-calc(15)  rem-calc(30);
+		}
+	}
+	&:last-of-type {
+		padding: rem-calc(20) rem-calc(10) rem-calc(10);
+		@media (min-width: $medium) {
+			padding: rem-calc(30) rem-calc(15)  rem-calc(15);
+		}
+	}
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	&--full {
+		max-width: $full-width-row;
+		width: 100%;
+		.row {
+			max-width: $full-width-row;
+			width: 100%;
+		}
+	}
+	&--full-bg {
+		width: 100%;
+		max-width: 100%;
+	}
+	&--primary {
+		padding-top: rem-calc(20);
+		margin-bottom: 0;
+		background: $primary;
+		@media (min-width: $medium) {
+			padding-top: rem-calc(30);
+		}
+		* {
+			color: $white;
+		}
+		figure {
+			margin-bottom: 0 !important;
+		}
+	}
+	&--secondary {
+		background: $secondary;
+		margin-bottom: 0;
+		padding-top: rem-calc(20);
+		@media (min-width: $medium) {
+			padding-top: rem-calc(30);
+		}
+		.button {
+			background-color: $primary;
+			&:hover {
+				background-color: $white;
+				color: $primary;
+			}
+		}
+		* {
+			color: $white;
+		}
+		figure {
+			margin-bottom: 0 !important;
+		}
+	}
+	&--grey {
+		margin-bottom: 0;
+		background: $light-grey;
+		padding-top: rem-calc(40);
+		@media (min-width: $medium) {
+			padding-top: rem-calc(60);
+		}
+		.button {
+			background-color: $primary;
+			border: 2px solid $dark-blue;
+			color: $white;
+			&:hover {
+				background-color: $secondary;
+				color: $white;
+				&:after {
+					background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzEwMHB4JyB3aWR0aD0nMTAwcHgnICBmaWxsPSIjMWY4MzdhIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTAwIDUwMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTAwIDUwMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik00OTAuMywyMzQuMkwzNDMuOSw4Ni43Yy04LjktOS0yMy40LTktMzIuNCwwYy04LjksOS04LjksMjMuNiwwLDMyLjZsMTA3LjQsMTA4LjFoLTM5MWMtMTIuNiwwLTIyLjksMTAuMy0yMi45LDIzICBjMCwxMi43LDEwLjIsMjMuMSwyMi45LDIzLjFoMzkxTDMxMS41LDM4MS43Yy04LjksOS04LjksMjMuNiwwLDMyLjZjNC41LDQuNSwxMC4zLDYuNywxNi4yLDYuN2M1LjksMCwxMS43LTIuMywxNi4yLTYuNyAgbDE0Ni40LTE0Ny41QzQ5OS4yLDI1Ny44LDQ5OS4yLDI0My4yLDQ5MC4zLDIzNC4yeiI+PC9wYXRoPjwvc3ZnPg==);
+				}
+			}
+		}
+		p:last-of-type {
+			margin-bottom: 2rem;
+		}
+		* {
+			color: $primary;
+		}
+		figure {
+			margin-bottom: 0 !important;
+		}
+	}
+	&--sm-col-space {
+		.row {
+			.cols {
+				padding-left: $col-padding-small;
+				padding-right: $col-padding-small;
+			}
+		}
+	}
+	&--no-col-space {
+		.row {
+			.cols {
+				padding-left: 0;
+				padding-right: 0;
+				&:first-of-type {
+					@media (min-width: $small) {
+						padding-left: rem-calc(15);
+					}
+				}
+				&:last-of-type {
+					@media (min-width: $small) {
+						padding-right: rem-calc(15);
+					}
+				}
+			}
+		}
+	}
+	&--full-sm-col {
+		width: 100%;
+		max-width: 100%;
+		.row {
+			width: 100%;
+			max-width: 100%;
+			.cols {
+				padding-left: rem-calc(4);
+				padding-right:rem-calc(4);
+			}
+		}
+	}
+	&--full-no-col {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		max-width: 100%;
+		.row {
+			max-width: $full-width-row;
+			.cols {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+/* Slider image styles
+---------------------------------------------- */
+
+.slider-image {
+	&__slide {
+		width: 75%;
+		height: rem-calc(500);
+	}
+}

@@ -1,0 +1,32 @@
+/* Buttons / Links styles 
+------------------------------*/
+
+.buttons {
+	&--centre {
+		text-align: center;
+	}
+	&.link--left,
+	&.link--centre {
+		.button {
+			margin: 0 rem-calc(16) rem-calc(16) 0 !important;
+			padding: 0  !important;
+			background-color: transparent  !important;
+			color: $primary !important;
+			border: none !important;
+			text-decoration: underline !important;
+			text-transform: capitalize !important;
+			font-size: calc(#{$font-size} - 7.5%) !important;
+			font-weight: 500;
+			font-family: $font-family-body;
+		}
+	}
+	&.link--centre {
+		text-align: center;
+	}
+	.button:first-of-type {
+		margin-left: 0 !important;
+	}
+	.button:last-of-type {
+		margin-right: 0 !important;
+	}
+}

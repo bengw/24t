@@ -1,0 +1,22 @@
+/* Text icon above content variation styles
+ *
+ * ICON ABOVE CONTENT VARIATION
+---------------------------------------------- */
+
+.text--icon {
+	position: relative;
+	.text {
+		&__inner {
+			margin-top: rem-calc(75);
+		}
+		&__image {
+			position: absolute;
+			top: rem-calc(-75);
+			left: 0;
+			img {
+				width: rem-calc(55);
+				height: rem-calc(75);
+			}
+		}
+	}
+}

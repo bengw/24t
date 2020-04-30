@@ -1,0 +1,25 @@
+.section {
+	.row {
+		max-width: $medium!important;
+		@media (min-width: 90.625rem) {
+			max-width: $medium!important;
+		}
+	}
+	&--full {
+		max-width: $full-width-row!important;
+		.row {
+			max-width: 100%!important;
+			@media (min-width: 90.625rem) {
+				max-width: 100%!important;
+			}
+		}
+	}
+	&--full-bg {
+		// To set up equal height cols.
+		display: table!important;
+		.col {
+		// Equal height cols.
+			display: table-cell!important;
+		}
+	}
+}

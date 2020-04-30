@@ -1,0 +1,27 @@
+.text--card {
+	margin-bottom: rem-calc(20);
+	text-align: center;
+	h2,h3,h4,h5,h6 {
+		color: $tertiary;
+	}
+	.text {
+		&__inner {
+			height: 100%;
+			position: relative;
+		}
+		&__content {
+			// width: 90%;
+			// position: absolute;
+			// top: 60%;
+			// left: 50%;
+			// transform: translate(-50%, -50%);
+		}
+		&__image {
+			margin: 0 auto;
+			top: rem-calc(-13);
+			left: rem-calc(13);
+			position: absolute;
+			width: rem-calc(60);
+		}
+	}
+}

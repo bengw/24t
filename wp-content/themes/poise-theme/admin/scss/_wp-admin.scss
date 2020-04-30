@@ -1,0 +1,35 @@
+///* Font-family for admin section */
+.wp-admin {
+    font-family: $font-family;
+}
+
+///* Remove user avatar */
+.avatar {
+    display: none !important;
+}
+
+///* Admin H1 font-family */
+h1 {
+    font-family: $h1-font-family;
+}
+
+// WYSIWYG Heading 1
+.mce-container-body {
+    .mce-menu-item.mce-menu-item-normal.mce-stack-layout-item:nth-of-type(2) {
+        display: none !important;
+    }
+}
+
+// Admin version ---bottom right
+#footer-upgrade {
+    display: none!important;
+}
+
+#footer-left {
+    float: right!important;
+}
+
+// Align text to center in ACF row view
+.acf-fc-layout-handle.ui-sortable-handle {
+    text-align: center!important;
+}

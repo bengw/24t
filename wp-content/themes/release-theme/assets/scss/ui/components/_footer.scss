@@ -1,0 +1,51 @@
+.footer {
+	padding: rem-calc(60) rem-calc(15);
+	text-align: center;
+	font-size: 75%;
+	color: $white;
+	border-top: 1px solid $red;
+	background: $dark-blue;
+	&__inner {
+		margin: 0 auto;
+		max-width: rem-calc(330);
+		@media (min-width: $small) {
+			max-width: $medium;
+		}
+	}
+	&__logo {
+		svg,img {
+			fill: $white !important;
+			margin-bottom: rem-calc(5);
+			width: rem-calc(75);
+			height: auto;
+			@media (min-width: $small) {
+				margin-bottom: rem-calc(10);
+				width: rem-calc(100);
+			}
+			g {
+				fill: $white !important;
+				stroke: $white !important;
+			}
+		}
+	}
+	ul {
+		@extend .menu--reset;
+		margin-bottom: rem-calc(15);
+		li {
+			display: inline-block;
+			padding: 0 rem-calc(8);
+		}
+		&.menu {
+			li {
+				margin-bottom: rem-calc(6);
+			}
+		}
+	}
+	h6 {
+		margin-bottom: 0;
+	}
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,9 @@
+.text--tile {
+	h2 {
+		&:after {
+			margin-left: auto;
+			margin-right: auto;
+			background: $white;
+		}
+	}
+}

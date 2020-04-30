@@ -1,0 +1,251 @@
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+    <style type="text/css">
+        .st0 {
+            clip-path: url(#T_3_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 8.5039;
+            stroke-miterlimit: 10;
+            animation: anim2 .25s ease-in .25s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 26.5;
+            stroke-dasharray: 26.5;
+        }
+        
+        @keyframes anim2 {
+            0% {
+                stroke-dashoffset: 26.5;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+        
+        .st1 {
+            clip-path: url(#T_4_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 8.5039;
+            stroke-miterlimit: 10;
+            animation: anim3 .25s ease-in .25s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 26.500003814697266;
+            stroke-dasharray: 26.500003814697266;
+        }
+        
+        @keyframes anim3 {
+            0% {
+                stroke-dashoffset: 26.500003814697266;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+        
+        .st2 {
+            clip-path: url(#T_5_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 6.3;
+            stroke-miterlimit: 10;
+            animation: anim1 .25s ease-in 0s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 65.5999984741211;
+            stroke-dasharray: 65.5999984741211;
+        }
+        
+        @keyframes anim1 {
+            0% {
+                stroke-dashoffset: 65.5999984741211;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+        
+        .st3 {
+            clip-path: url(#_x32__2_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 14.1732;
+            stroke-miterlimit: 10;
+            animation: anim4 .5s ease-in .5s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 145.3785400390625;
+            stroke-dasharray: 145.3785400390625;
+        }
+        
+        @keyframes anim4 {
+            0% {
+                stroke-dashoffset: 145.3785400390625;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+        
+        .st4 {
+            clip-path: url(#_x34__4_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 14.1732;
+            stroke-miterlimit: 10;
+            animation: anim5 .25s ease-in 1s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 63.019805908203125;
+            stroke-dasharray: 63.019805908203125;
+        }
+        
+        @keyframes anim5 {
+            0% {
+                stroke-dashoffset: 63.019805908203125;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+        
+        .st5 {
+            clip-path: url(#_x34__5_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 10.3465;
+            stroke-miterlimit: 10;
+            animation: anim6 .25s ease-in 1.25s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 53.5;
+            stroke-dasharray: 53.5;
+        }
+        
+        @keyframes anim6 {
+            0% {
+                stroke-dashoffset: 53.5;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+        
+        .st6 {
+            clip-path: url(#_x34__6_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 11.3386;
+            stroke-miterlimit: 10;
+            animation: anim7 .5s ease-in 1.5s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 145.3785400390625;
+            stroke-dasharray: 145.3785400390625;
+        }
+        
+        @keyframes anim7 {
+            0% {
+                stroke-dashoffset: 145.3785400390625;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+        
+        .st7 {
+            clip-path: url(#_x34__7_);
+            fill: none;
+            stroke: #ffffff;
+            stroke-width: 11.3386;
+            stroke-miterlimit: 10;
+            animation: anim8 .5s ease-in 1.5s 1;
+            animation-fill-mode: both;
+            stroke-dashoffset: 145.3785400390625;
+            stroke-dasharray: 145.3785400390625;
+        }
+        
+        @keyframes anim8 {
+            0% {
+                stroke-dashoffset: 145.3785400390625;
+            }
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+<g id="left">
+	<defs>
+		<polygon id="T" points="40.8,66.1 17.8,66.1 17.8,60.1 70.8,60.1 70.8,66.1 47.7,66.1 47.7,125.6 40.8,125.6 		"/>
+	</defs>
+	<clipPath id="T_3_">
+		<use xlink:href="#T"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st0" x1="44.3" y1="62.8" x2="17.8" y2="62.8"/>
+</g>
+<g id="right">
+	<defs>
+		<polygon id="T_1_" points="40.8,66.1 17.8,66.1 17.8,60.1 70.8,60.1 70.8,66.1 47.7,66.1 47.7,125.6 40.8,125.6 		"/>
+	</defs>
+	<clipPath id="T_4_">
+		<use xlink:href="#T_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st1" x1="44.3" y1="62.8" x2="70.8" y2="62.8"/>
+</g>
+<g id="center">
+	<defs>
+		<polygon id="T_2_" points="40.8,66.1 17.8,66.1 17.8,60.1 70.8,60.1 70.8,66.1 47.7,66.1 47.7,125.6 40.8,125.6 		"/>
+	</defs>
+	<clipPath id="T_5_">
+		<use xlink:href="#T_2_"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st2" x1="43.9" y1="125.7" x2="43.9" y2="60.1"/>
+</g>
+<g id="_x32_mask">
+	<defs>
+		<path id="_x32__1_" d="M123.7,115.4v10.3H75.4v-8.1l26-24.7c2.9-2.8,4.9-5.3,5.9-7.3c1-2.1,1.5-4.2,1.5-6.2c0-3.1-1-5.4-3.1-7
+			s-5.1-2.4-9.1-2.4c-6.7,0-11.8,2.3-15.4,6.8l-8.4-6.7c2.6-3.4,6-6.1,10.3-8s9.2-2.9,14.6-2.9c7.1,0,12.8,1.7,17,5.1
+			c4.2,3.4,6.4,8,6.4,13.8c0,3.6-0.7,6.9-2.2,10s-4.4,6.7-8.6,10.7l-17.5,16.7L123.7,115.4L123.7,115.4z"/>
+	</defs>
+	<clipPath id="_x32__2_">
+		<use xlink:href="#_x32__1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st3" d="M77,73.5c0,0,7.4-9.3,19.6-8.8c12.2,0.5,18.6,6.6,18,13.7c-0.6,7.1-1.1,9.7-4.4,13s-28.5,25.4-28.5,25.4
+		l-0.2,3.5h42"/>
+</g>
+<g id="_x34_seccond">
+	<defs>
+		<path id="_x34__2_" d="M155,75h11.5v3c0,3.6-0.7,6.9-2.2,10s-4.4,6.7-8.6,10.7l-1.7,1.6l-15.8,15.1h31.7v-13.2h10.6v13.2v10.3
+			v14.9h-11v-14.9h-47.8v-5.8v-2.6L144,96l3.5-3.3c2.9-2.8,4.9-5.3,5.9-7.3c1-2.1,1.5-4.2,1.5-6.2V75H155z"/>
+	</defs>
+	<clipPath id="_x34__4_">
+		<use xlink:href="#_x34__2_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st4" d="M122.2,121.1h0.5l29.4-28.3c0,0,8.9-5.7,8.9-9.2s0-8.6,0-8.6"/>
+</g>
+<g id="_x34_first">
+	<defs>
+		<path id="_x34__1_" d="M155,75h11.5v3c0,3.6-0.7,6.9-2.2,10s-4.4,6.7-8.6,10.7l-1.7,1.6l-15.8,15.1h31.7v-13.2h10.6v13.2v10.3
+			v14.9h-11v-14.9h-47.8v-5.8v-2.6L144,96l3.5-3.3c2.9-2.8,4.9-5.3,5.9-7.3c1-2.1,1.5-4.2,1.5-6.2V75H155z"/>
+	</defs>
+	<clipPath id="_x34__5_">
+		<use xlink:href="#_x34__1_"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st5" x1="127" y1="120.6" x2="180.5" y2="120.6"/>
+</g>
+<g id="_x34_up">
+	<defs>
+		<path id="_x34_" d="M155,75h11.5v3c0,3.6-0.7,6.9-2.2,10s-4.4,6.7-8.6,10.7l-1.7,1.6l-15.8,15.1h31.7v-13.2h10.6v13.2v10.3v14.9
+			h-11v-14.9h-47.8v-5.8v-2.6L144,96l3.5-3.3c2.9-2.8,4.9-5.3,5.9-7.3c1-2.1,1.5-4.2,1.5-6.2V75H155z"/>
+	</defs>
+	<clipPath id="_x34__6_">
+		<use xlink:href="#_x34_"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st6" x1="175" y1="120.6" x2="175" y2="102.2"/>
+</g>
+<g id="_x34_down">
+	<defs>
+		<path id="_x34__3_" d="M155,75h11.5v3c0,3.6-0.7,6.9-2.2,10s-4.4,6.7-8.6,10.7l-1.7,1.6l-15.8,15.1h31.7v-13.2h10.6v13.2v10.3
+			v14.9h-11v-14.9h-47.8v-5.8v-2.6L144,96l3.5-3.3c2.9-2.8,4.9-5.3,5.9-7.3c1-2.1,1.5-4.2,1.5-6.2V75H155z"/>
+	</defs>
+	<clipPath id="_x34__7_">
+		<use xlink:href="#_x34__3_"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st7" x1="175" y1="120.6" x2="175" y2="140.6"/>
+</g>
+</svg>

@@ -1,0 +1,84 @@
+/* Form styles
+---------------------------------------------- */
+
+[role=form] {
+	width: 100%;
+	max-width: none;
+	text-align: center;
+	color: $white;
+	label {
+		font-size: rem-calc(20);
+		font-weight: $font-weight-semi-bold;
+		span {
+			font-size: rem-calc(16);
+			font-weight: $font-weight;
+		}
+	}
+	fieldset {
+		padding: rem-calc(10);
+		@media (min-width: $small) {
+			padding: rem-calc(15);
+		}
+	}
+	form {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.wpcf7-list-item {
+		display: block;
+	}
+	p:not(:last-of-type) {
+		padding: rem-calc(5);
+		flex: 1 1 100%;
+		text-align: left;
+		margin-bottom: rem-calc(8);
+		@media (min-width: $small) {
+			flex: 1 1 50%;
+			padding: rem-calc(10);
+		}
+		@media (min-width: $medium) {
+			flex: 1 1 50%;
+		}
+	}
+	p:last-of-type {
+		width: 100%;
+	}
+	input:not([type=checkbox]):not([type=submit]),
+	textarea {
+		padding: rem-calc(8);
+		border: none;
+		border-bottom: rem-calc(1) solid $primary;
+		width: 100%;
+		font-family: $font-family;
+		font-weight: $font-weight;
+		background: transparent;
+		color: $primary;
+		font-size: $font-size;
+		font-weight: 400;
+		&::placeholder {
+			color: $primary;
+		}
+	}
+	select, select option {
+		&::placeholder {
+			color: $primary;
+		}
+	}
+	.wpcf7-list-item {
+		margin: rem-calc(4) 0;
+	}
+	input[type=checkbox] {
+		margin: 0 rem-calc(8) 0 0;
+		padding: rem-calc(8);
+		border: none;
+		cursor: pointer;
+	}
+	input[type=submit] {
+		@extend .button;
+		display: inline-block;
+		width: auto;
+		margin: 0;
+		padding: rem-calc(15) rem-calc(20);
+	}
+}

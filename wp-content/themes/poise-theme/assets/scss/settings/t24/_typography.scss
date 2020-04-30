@@ -1,0 +1,32 @@
+// Typography styles
+// ----------------------
+
+h1, h2, h3, h4, h5, h6 {
+    margin: $heading-margin;
+    font-family: $font-family-headings;
+    line-height: $line-height;
+    // letter-spacing: 2px;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: $font-weight-bold; }
+
+h1 { font-size: $h1-size; }
+h2 { font-size: $h2-size; }
+h3 { font-size: $h3-size; }
+h4 { font-size: $h4-size; }
+h5 { font-size: $h5-size; }
+h6 { font-size: $h6-size; }
+
+@media (min-width: $small) {
+    h1 { font-size: $h1-size-large; }
+    h2 { font-size: $h2-size-large; }
+    h3 { font-size: $h3-size-large; }
+    h4 { font-size: $h4-size-large; }
+    h5 { font-size: $h5-size-large; }
+    h6 { font-size: $h6-size-large; }
+}
+
+p {
+    margin: $paragraph-margin;
+    font-weight: $font-weight;
+}

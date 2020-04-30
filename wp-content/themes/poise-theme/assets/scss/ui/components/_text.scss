@@ -1,0 +1,33 @@
+/* Text styles
+---------------------------------------------- */
+
+.text {
+	color: $font-colour;
+	position: relative;
+	&__anchor {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	.lead {
+		font-size: 150%;
+	}
+	ul {
+		@extend .menu--reset;
+		margin-bottom: rem-calc(32);
+		li {
+			&:before {
+				content: '■';
+				margin-right: rem-calc(10);
+				display: inline-block;
+				left: 0;
+				font-size: inherit;
+				color: $secondary;
+			}
+		}
+	}
+}

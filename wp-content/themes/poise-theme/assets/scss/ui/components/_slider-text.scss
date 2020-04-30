@@ -1,0 +1,23 @@
+/* Slider text styles
+---------------------------------------------- */
+
+.slider-text {
+	.flickity-slider {
+		margin-left: -28%;
+	}
+	&__slide {
+		position: relative;
+		height: 80vh;
+		width: 28%;
+  		margin-right: rem-calc(10);
+  		background: #8C8;
+  		border-radius: 5px;
+	}
+	.flickity-page-dots {
+		bottom: 25px;
+		.dot {
+			background: $white;
+			border: 1px solid $black;
+		}
+	}
+}

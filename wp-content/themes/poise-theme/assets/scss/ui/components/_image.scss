@@ -1,0 +1,63 @@
+/* Image styles
+---------------------------------------------- */
+
+.image {
+	position: relative;
+	margin: 0 0 rem-calc(16) !important;
+	img {
+		position: absolute;
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+	&__caption {
+		position: absolute;
+	}
+	&--prop {
+		padding-bottom: 0;
+		img {
+			position: relative;
+			height: auto;
+		}
+	}
+	&--tv {
+		// 16:9 ratio
+		padding-bottom: 56.25%;
+		.image__caption {
+			padding-top: 56.25%;
+		}
+	}
+	&--tab-lan {
+		// 4:3 ratio
+		padding-bottom: 75%;
+		.image__caption {
+			padding-top: 75%;
+		}
+	}
+	&--square {
+		// 1:1 ratio
+		padding-bottom: 100%;
+		.image__caption {
+			padding-top: 100%;
+		}
+	}
+	&--tab-por {
+		// 3:4 ratio
+		padding-bottom: 133%;
+		.image__caption {
+			padding-top: 133%;
+		}
+	}
+	&--mob {
+		// 2:3 ratio
+		padding-bottom: 150%;
+		.image__caption {
+			padding-top: 150%;
+		}
+	}
+	&--project {
+		img {
+			margin: 0;
+		}
+	}
+}

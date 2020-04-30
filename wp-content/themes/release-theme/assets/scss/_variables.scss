@@ -1,0 +1,76 @@
+// -------------------------
+// Core variables
+// -------------------------
+
+$xxsmall: rem-calc(375);
+$xsmall: rem-calc(420);
+$small: rem-calc(640);
+$medium: rem-calc(1040);
+$large: rem-calc(1200);
+$xlarge: rem-calc(1440);
+$site-width: $large;
+$full-width-row: 100%;
+
+$red: #7C061D;
+$blue: #0F1455;
+$dark-blue: darken(#0F1455, 10%);
+$dark-grey: #646464;
+$medium-grey: #AFAFAF;
+$light-grey: lighten(#E1E1E1, 7.5%);
+$grey: $medium-grey;
+$white: #FAFAFA;
+$black: #0F0F0F;
+
+$primary: $blue;
+$secondary: $red;
+$tertiary: $grey;
+
+$col-padding-small: rem-calc(10);
+$col-padding: rem-calc(15);
+
+$header-height: rem-calc(90);
+
+$body-bg-colour: $white;
+
+$font-family-headings: 'Montserrat', sans-serif;
+$font-family-body: 'Montserrat', sans-serif;
+$font-family: 'Montserrat', sans-serif;
+$font-size: 16px;
+$font-colour: $primary;
+$line-height: 1.5;
+$font-weight: 300;
+$font-weight-regular: $font-weight;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+$heading-margin: 0 0 rem-calc(16);
+$paragraph-margin: 0 0 rem-calc(14);
+
+$h1-size: rem-calc(16);
+$h2-size: rem-calc(24);
+$h3-size: rem-calc(22);
+$h4-size: rem-calc(20);
+$h5-size: rem-calc(18);
+$h6-size: rem-calc(16);
+$h1-size-large: rem-calc(28);
+$h2-size-large: rem-calc(36);
+$h3-size-large: rem-calc(30);
+$h4-size-large: rem-calc(25);
+$h5-size-large: rem-calc(20);
+$h6-size-large: rem-calc(16);
+
+$transition: all 250ms ease;
+
+$button-display 			   : inline-block;
+$button-margin				   : rem-calc(16);
+$button-padding				   : rem-calc(15) rem-calc(20);
+$button-background-color	   : $secondary;
+$button-background-hover-color : darken($secondary, 5%);
+$button-color				   : $white;
+$button-background-hover-text  : $white;
+$button-border				   : rem-calc(1) solid lighten($secondary, 15%);
+$button-border-radius		   : 0;
+$button-text-transform		   : uppercase;
+$button-font-size			   : $font-size;
+$button-font-weight			   : 600;
+$button-font-family			   : $font-family;

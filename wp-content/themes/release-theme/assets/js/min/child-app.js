@@ -1,0 +1,1 @@
+$(document).ready(function(){"use strict";$(".header__cta").on("click",function(){$("html, body").animate({scrollTop:$("#form").offset().top-120},1250)}),AOS.init()});

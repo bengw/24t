@@ -1,0 +1,13 @@
+/* Post styles
+---------------------------------------------- */
+
+.body--single,
+.single {
+	.row .row {
+		margin-left: rem-calc(-10);
+		margin-right: rem-calc(-10);
+	}
+	.image {
+		padding-bottom: 53.2%;
+	}
+}

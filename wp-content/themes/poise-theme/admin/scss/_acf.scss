@@ -1,0 +1,47 @@
+// Make ACF header blue
+.acf-fc-layout-handle {
+    background: #202030 !important;
+    color: #fefefe !important;
+
+    & * {
+        color: #fefefe !important;
+    }
+}
+
+.ui-sortable-handle {
+    background: #0085ba !important;
+    border-color: #0073aa #006799 #006799 !important;
+    box-shadow: 0 1px 0 #006799 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+
+    & * {
+        color: #fefefe !important;
+    }
+}
+
+// Make ACF number circle grey and then hide it *cratches head*
+.acf-fc-layout-handle {
+    background: #0085ba !important;
+    font-size: 16px !important;
+}
+
+// Make ACF header text white
+.handlediv {
+    background: #fefefe !important;
+}
+
+// Make ACF close and open arrow bg white
+.handlediv:hover {
+    background: #ececec;
+}
+
+.acf-fc-layout-order {
+    color: #202030 !important;
+    display: none !important;
+}
+
+// Cog icon next to ACF group heading to 'Edit Field Group'
+.dashicons.dashicons-admin-generic.acf-hndle-cog.acf-js-tooltip {
+    display: none !important;
+}

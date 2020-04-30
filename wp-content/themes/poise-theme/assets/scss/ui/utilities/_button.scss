@@ -1,0 +1,27 @@
+/* Button styles
+---------------------------------------------- */
+
+.button {
+	display: $button-display;
+	margin: $button-margin;
+	padding: $button-padding;
+	background-color: $button-background-color;
+	color: $button-color;
+	border: $button-border;
+	border-radius: $button-border-radius;
+	text-decoration: none;
+	text-transform: $button-text-transform;
+	font-size: $button-font-size;
+	font-weight: $button-font-weight;
+	font-family: $button-font-family;
+	cursor: pointer;
+	user-select: none;
+	outline: 0;
+
+	&:hover,
+	&:active {
+		background-color: $button-background-hover-color;
+		color: $button-background-hover-text;
+		text-decoration: none;
+	}
+}

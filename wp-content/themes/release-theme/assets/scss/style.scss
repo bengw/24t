@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*! T24 Stylesheet
+* @author T24
+------------------------------*/
+
+// Default Mixins from parent theme.
+// ----------------------------------
+@import '../../../poise-theme/assets/scss/ui/mixins';
+
+// Get variables from child theme.
+// ---------------------------------
+@import 'variables';
+
+// Initial set up from parent theme.
+// -------------------------------------
+@import '../../../poise-theme/assets/scss/settings/foundation/foundation';
+@import '../../../poise-theme/assets/scss/settings/hamburgers/hamburgers';
+@import '../../../poise-theme/assets/scss/settings/t24/base';
+@import '../../../poise-theme/assets/scss/settings/t24/typography';
+// @import '../../../poise-theme/assets/scss/settings/flickity/flickity';
+
+// Default Base Styles from parent theme.
+// ----------------------------------------
+@import '../../../poise-theme/assets/scss/ui/base';
+
+// Default Utilities from parent theme.
+// -------------------------------------
+@import '../../../poise-theme/assets/scss/ui/utilities/button';
+@import '../../../poise-theme/assets/scss/ui/utilities/menu-reset';
+
+// Default Elements from parent theme.
+// -------------------------------------
+@import '../../../poise-theme/assets/scss/ui/components/404';
+@import '../../../poise-theme/assets/scss/ui/components/blog';
+@import '../../../poise-theme/assets/scss/ui/components/form';
+@import '../../../poise-theme/assets/scss/ui/components/main';
+@import '../../../poise-theme/assets/scss/ui/components/row';
+@import '../../../poise-theme/assets/scss/ui/components/text';
+@import '../../../poise-theme/assets/scss/ui/components/buttons';
+@import '../../../poise-theme/assets/scss/ui/components/text--default';
+@import '../../../poise-theme/assets/scss/ui/components/text--card';
+@import '../../../poise-theme/assets/scss/ui/components/text--tile';
+@import '../../../poise-theme/assets/scss/ui/components/text--narrow';
+@import '../../../poise-theme/assets/scss/ui/components/text--icon';
+@import '../../../poise-theme/assets/scss/ui/components/text--quote';
+@import '../../../poise-theme/assets/scss/ui/components/text--iframe';
+@import '../../../poise-theme/assets/scss/ui/components/details';
+@import '../../../poise-theme/assets/scss/ui/components/image';
+@import '../../../poise-theme/assets/scss/ui/components/lede';
+@import '../../../poise-theme/assets/scss/ui/components/lede--default';
+@import '../../../poise-theme/assets/scss/ui/components/lede--video';
+@import '../../../poise-theme/assets/scss/ui/components/post';
+@import '../../../poise-theme/assets/scss/ui/components/text';
+@import '../../../poise-theme/assets/scss/ui/components/sidebar';
+@import '../../../poise-theme/assets/scss/ui/components/slider-text';
+@import '../../../poise-theme/assets/scss/ui/components/slider-image';
+
+// Theme specific dbase styles from child theme.
+// --------------------------------------------------
+@import 'ui/fonts';
+@import 'ui/base';
+
+// Theme specific components, animations, utilities from child theme.
+// -------------------------------------------------------------------
+@import 'ui/animation/keyframes';
+@import 'ui/components/header';
+@import 'ui/components/footer';
+@import 'ui/components/landing-page';
+@import 'ui/components/logo';
+@import 'ui/components/social-media';
+@import 'ui/components/lede';
+@import 'ui/components/text--tile';
+@import 'ui/components/section';
+@import 'ui/components/table';
+@import 'ui/components/image';

@@ -1,0 +1,73 @@
+/* Default Lede styles
+---------------------------------------------- */
+
+.lede {
+	position: relative;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	margin-top: $header-height;
+	color: $white;
+	overflow: hidden;
+	text-align: center;
+	background: $primary;
+	&.lede--medium {
+		height: 85vh;
+		max-height: rem-calc(1000);
+		@media (max-width: $small) {
+			height: 120vh;
+		}
+	}
+	&.lede--small {
+		height: 70vh;
+		max-height: rem-calc(750);
+	}
+	&.lede--large {
+		height: 100vh;
+		max-height: rem-calc(1200);
+	}
+	h1 {
+		font-weight: 300;
+	}
+	h2 {
+		font-size: rem-calc(40);
+		@media (min-width: $small) {
+			font-size: rem-calc(60);
+		}
+	}
+	.lede {
+		&__content {
+			margin: 0 auto;
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			padding: rem-calc(30);
+			width: 100%;
+			z-index: 2;
+			transform: translate(-50%, -50%);
+			max-width: $site-width;
+			@media (min-width: 90.625rem) {
+				max-width: $xlarge;
+			}
+		}
+	}
+	&__background {
+		margin: 0 auto;
+		width: 100%;
+		height: 25rem;
+		z-index: 1;
+		position: relative;
+		padding: 0;
+		max-width: $site-width;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		@media (min-width: $small) {
+			padding: 0 rem-calc(15);
+		}
+		@media (min-width: 90.625rem) {
+			max-width: $xlarge;
+		}
+	}
+}

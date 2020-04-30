@@ -1,0 +1,29 @@
+// Admin menu colour */
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+    background: #202030;
+}
+
+// Admin sub menu backgorund */
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,
+li.wp-has-current-submenu:hover .wp-submenu {
+    background: #3e3e54;
+}
+
+// Hide comments section */
+.menu-icon-comments {
+    display: none;
+}
+
+div.wp-menu-image:before {
+	color: rgb(240,245,250)!important;
+}
+
+#collapse-button {
+	color: rgb(240,245,250)!important;
+}

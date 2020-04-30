@@ -1,0 +1,46 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186.96 54.33">
+    <defs>
+        <style>
+        .cls-1 {
+            font-size: 26px;
+        }
+
+        .cls-1,
+        .cls-3,
+        .cls-4 {
+            fill: #fff;
+        }
+
+        .cls-1,
+        .cls-4 {
+            font-family: Montserrat-Regular, Montserrat;
+        }
+
+        .cls-2 {
+            letter-spacing: -0.05em;
+        }
+
+        .cls-4 {
+            font-size: 16px;
+            letter-spacing: 0.5em;
+        }
+
+        .cls-5 {
+            letter-spacing: 0.45em;
+        }
+
+        .cls-6 {
+            letter-spacing: 0.5em;
+        }
+        </style>
+    </defs><text class="cls-1" transform="translate(0 32.47)">
+        <tspan class="cls-2">T</tspan>
+        <tspan x="14.27" y="0">ARGETMARK</tspan>
+    </text>
+    <path class="cls-3" d="M74,81.93H76.2l2.55-1.84V78.37l-2.57-1.81H73.93L75.7,79.2v.09Z" transform="translate(-7.11 -75.66)" />
+    <path class="cls-3" d="M77.24,81.89h2.24L82,80V78.33l-2.57-1.81H77.21L79,79.16v.09Z" transform="translate(-7.11 -75.66)" />
+    <rect class="cls-3" x="71.48" y="2.77" width="37.13" height="1.48" />
+    <path class="cls-3" d="M115.82,75.66l8.49,3.62L115.86,83l-1.39-3.66Z" transform="translate(-7.11 -75.66)" /><text class="cls-4" transform="translate(36.21 50.33)">DIGI<tspan class="cls-5" x="66.61" y="0">T</tspan>
+        <tspan class="cls-6" x="83.39" y="0">AL</tspan>
+    </text><text x="-7.11" y="-75.66" />
+</svg>

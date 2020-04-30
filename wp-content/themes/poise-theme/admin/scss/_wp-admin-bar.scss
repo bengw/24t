@@ -1,0 +1,14 @@
+// Admin bar colour */
+#wpadminbar {
+    background: #202030;
+}
+
+///* Admin bar font-family */
+#wpadminbar * {
+    font-family: $font-family;
+}
+
+///* Remove WP logo */
+#wp-admin-bar-wp-logo {
+    display: none;
+}
